@@ -1,18 +1,5 @@
-import TrainingPage from './pages/TraningPage'
-
 function App() {
-  return <TrainingPage />
+  return <h1 className='font-bold text-blue-900'> Hello CSMT </h1>
 }
 
 export default App
-
-/*
-
-Headbar -> score, mode
-Mode -> mode
-  BinaryMode -> Bit (own state)
-  Hex ->  Bit (own state)
-  Addition -> Bit (own state)
-AnswerFunctions -> shown
-
-*/
