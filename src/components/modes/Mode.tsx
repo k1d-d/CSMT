@@ -1,4 +1,5 @@
 import BinaryMode from './BinaryMode'
+import HexMode from './HexMode'
 
 interface props {
   mode: string
@@ -16,8 +17,9 @@ const Mode = ({ mode }: props) => {
       content = <BinaryMode />
       break
     case 'hex':
+      content = <HexMode />
       break
-    case 'decimal':
+    case 'addition':
       break
   }
 

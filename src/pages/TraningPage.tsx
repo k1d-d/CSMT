@@ -6,7 +6,7 @@ const TrainingPage = () => {
   return (
     <div className='grid justify-center justify-items-center p-24'>
       <Herobar points={0} mode='hex' />
-      <Mode mode='binary' />
+      <Mode mode='hex' />
       <AnswerFunctions shown={false} />
     </div>
   )
